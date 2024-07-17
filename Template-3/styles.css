@@ -1,0 +1,95 @@
+/* style.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff; /* Blue header background */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    max-width: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+.login-btn {
+    background-color: #fff; /* White login button */
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Main section styles */
+#banner {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+#banner img {
+    max-width: 100%;
+}
+
+.registration-form {
+    margin-left: 40px;
+    background-color: #f9f9f9; /* Light gray form background */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Teacher cards styles */
+.teacher-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 45%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed */

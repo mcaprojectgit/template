@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCourse - Your Path to Success</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><img src="logo.png" alt="eCourse Logo"></a>
+            <ul>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#admission">Admission Procedure</a></li>
+                <li><a href="#parents">Parents Section</a></li>
+                <li><a href="#our-aim">Our Aim</a></li>
+                <li><a href="#teachers">Teachers</a></li>
+                <li><a href="#syllabus">Syllabus</a></li>
+            </ul>
+            <a href="#" class="login-btn">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <img src="banner.jpg" alt="Teachers and Students Learning">
+            <div class="registration-form">
+                <h2>Register Now!</h2>
+                <form action="submit_registration.php" method="post">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" min="5" max="18" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="standard">Standard:</label>
+                        <select id="standard" name="standard" required>
+                            <option value="">Select Standard</option>
+                            <option value="1">1st</option>
+                            <option value="2">2nd</option>
+                            </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email ID:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reason">Why eCourse?</label>
+                        <textarea id="reason" name="reason" rows="5" placeholder="What made you consider joining eCourse?" required></textarea>
+                    </div>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="teachers">
+            <h2>Meet Our Dedicated Teachers</h2>
+            <div class="teacher-cards">
+                <div class="card">
+                    <img src="teacher1.jpg" alt="Teacher 1">
+                    <h3>Mr. Smith</h3>
+                    <p>Mathematics</p>
+                    <p>10+ Years of Experience</p>
+                </div>
+                <div class="card">
+                    <img src="teacher2.jpg" alt="Teacher 2">
+                    <h3>Ms. Jones</h3>
+                    <p>Physics</p>
+                    <p>8+ Years of Experience</p>
+                </div>
+                </div>
+        </section>
+
+        </main>
+
+    <footer>
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p> Address: 1

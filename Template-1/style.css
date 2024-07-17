@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    border: 2px solid black;
+}
+
+.navbar {
+
+}
+
+.navbar ul {
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    border: 2px solid red;
+    padding: 18px 15px 15px;
+    margin: 30px;
+}
+
+/* .login {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .login #login-btn {
+    height: 32px;
+    width: 70px;
+    font-size: 20px;
+} */
+
+main {
+    border: 2px solid blue;
+}
+
+.container {
+    margin: 25px 0px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .image {
+    background-color: rgb(97, 189, 243);
+    margin: 20px;
+    border: 2px solid blue;
+    height: 300px;
+    width: 270px;
+}
+
+.registration {
+    background-color: rgb(243, 214, 97);
+    margin: 20px;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 270px;
+    border-radius: 8px;
+}
+
+.registration button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input, form select, form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
